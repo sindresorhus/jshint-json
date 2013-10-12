@@ -1,0 +1,40 @@
+{
+  "name": "jshint-json",
+  "version": "0.0.0",
+  "description": "JSON reporter for JSHint",
+  "keywords": [
+    "jshint",
+    "reporter",
+    "lint",
+    "validate",
+    "json",
+    "serialize",
+    "bridge"
+  ],
+  "homepage": "https://github.com/sindresorhus/jshint-json",
+  "bugs": "https://github.com/sindresorhus/jshint-json/issues",
+  "license": "MIT",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "http://sindresorhus.com"
+  },
+  "files": [
+    "json.js"
+  ],
+  "main": "json",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sindresorhus/jshint-json.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "~1.13.0",
+    "jshint": "~2.1.11"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}

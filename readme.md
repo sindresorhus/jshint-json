@@ -26,7 +26,7 @@ jshint --reporter node_modules/jshint-json/json.js file.js
 grunt.initConfig({
 	jshint: {
 		options: {
-			reporter: 'node_modules/jshint-json/json.js'
+			reporter: require('jshint-json')
 		},
 		target: ['file.js']
 	}

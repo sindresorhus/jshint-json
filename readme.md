@@ -32,7 +32,7 @@ grunt.initConfig({
 	}
 });
 
-grunt.loadNpmTasks('grunt-jshint');
+grunt.loadNpmTasks('grunt-contrib-jshint');
 grunt.registerTask('default', ['jshint']);
 ```
 

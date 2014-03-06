@@ -1,4 +1,4 @@
-# jshint-json [![Build Status](https://secure.travis-ci.org/sindresorhus/jshint-json.png?branch=master)](http://travis-ci.org/sindresorhus/jshint-json)
+# jshint-json [![Build Status](https://travis-ci.org/sindresorhus/jshint-json.png?branch=master)](https://travis-ci.org/sindresorhus/jshint-json)
 
 > JSON reporter for [JSHint](https://github.com/jshint/jshint)
 
@@ -7,7 +7,9 @@ Makes it easy to use JSHint with other tools.
 
 ## Install
 
-Install with [npm](https://npmjs.org/package/jshint-json): `npm install --save-dev jshint-json`
+```bash
+npm install --save-dev jshint-json
+```
 
 
 ## Getting started
@@ -167,4 +169,4 @@ grunt.registerTask('default', ['jshint']);
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+[MIT](http://opensource.org/licenses/MIT) © [Sindre Sorhus](http://sindresorhus.com)

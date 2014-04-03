@@ -1,4 +1,4 @@
-# jshint-json [![Build Status](https://travis-ci.org/sindresorhus/jshint-json.png?branch=master)](https://travis-ci.org/sindresorhus/jshint-json)
+# jshint-json [![Build Status](https://travis-ci.org/sindresorhus/jshint-json.svg?branch=master)](https://travis-ci.org/sindresorhus/jshint-json)
 
 > JSON reporter for [JSHint](https://github.com/jshint/jshint)
 

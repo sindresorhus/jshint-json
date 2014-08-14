@@ -1,7 +1,7 @@
 'use strict';
 var assert = require('assert');
 var jshint = require('jshint/src/cli').run;
-var jsonReporter = require('./json.js').reporter;
+var jsonReporter = require('./json').reporter;
 
 describe('jshint-json', function () {
 	it('should be used by JSHint', function () {
@@ -12,7 +12,7 @@ describe('jshint-json', function () {
 			if (/{"result"/.test(str)) {
 				ret = true;
 			}
-		}
+		};
 
 		jshint({
 			args: ['test.js'],

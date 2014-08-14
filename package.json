@@ -11,8 +11,6 @@
     "serialize",
     "bridge"
   ],
-  "homepage": "https://github.com/sindresorhus/jshint-json",
-  "bugs": "https://github.com/sindresorhus/jshint-json/issues",
   "license": "MIT",
   "author": {
     "name": "Sindre Sorhus",
@@ -23,18 +21,15 @@
     "index.js",
     "json.js"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/sindresorhus/jshint-json.git"
-  },
+  "repository": "sindresorhus/jshint-json",
   "scripts": {
     "test": "mocha"
   },
   "devDependencies": {
-    "mocha": "~1.13.0",
-    "jshint": "~2.1.11"
+    "jshint": "^2.5.3",
+    "mocha": "*"
   },
   "engines": {
-    "node": ">=0.8.0"
+    "node": ">=0.10.0"
   }
 }

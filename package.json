@@ -28,6 +28,9 @@
 		"serialize",
 		"bridge"
 	],
+	"dependencies": {
+		"circular-json-es6": "^2.0.2"
+	},
 	"devDependencies": {
 		"jshint": "^2.5.3",
 		"mocha": "^5.0.5",

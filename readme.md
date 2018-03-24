@@ -7,18 +7,16 @@ Makes it easy to use JSHint with other tools.
 
 ## Install
 
-```sh
+```
 npm install --save-dev jshint-json
 ```
 
 
 ## Usage
 
-Use it with:
-
 #### JSHint CLI
 
-```sh
+```
 $ jshint --reporter node_modules/jshint-json/json.js file.js
 ```
 
@@ -169,4 +167,4 @@ grunt.registerTask('default', ['jshint']);
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)

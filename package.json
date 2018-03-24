@@ -1,35 +1,36 @@
 {
-  "name": "jshint-json",
-  "version": "1.0.1",
-  "description": "JSON reporter for JSHint",
-  "keywords": [
-    "jshint",
-    "reporter",
-    "lint",
-    "validate",
-    "json",
-    "serialize",
-    "bridge"
-  ],
-  "license": "MIT",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "http://sindresorhus.com"
-  },
-  "files": [
-    "index.js",
-    "json.js"
-  ],
-  "repository": "sindresorhus/jshint-json",
-  "scripts": {
-    "test": "mocha"
-  },
-  "devDependencies": {
-    "jshint": "^2.5.3",
-    "mocha": "*"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  }
+	"name": "jshint-json",
+	"version": "1.0.1",
+	"description": "JSON reporter for JSHint",
+	"license": "MIT",
+	"repository": "sindresorhus/jshint-json",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "xo && mocha"
+	},
+	"files": [
+		"index.js",
+		"json.js"
+	],
+	"keywords": [
+		"jshint",
+		"reporter",
+		"lint",
+		"validate",
+		"json",
+		"serialize",
+		"bridge"
+	],
+	"devDependencies": {
+		"jshint": "^2.5.3",
+		"mocha": "^5.0.5",
+		"xo": "*"
+	}
 }

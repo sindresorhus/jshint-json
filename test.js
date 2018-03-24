@@ -1,14 +1,15 @@
+/* eslint-env mocha */
 'use strict';
-var assert = require('assert');
-var jshint = require('jshint/src/cli').run;
-var jsonReporter = require('./json').reporter;
+const assert = require('assert');
+const jshint = require('jshint/src/cli').run;
+const jsonReporter = require('./json').reporter;
 
-describe('jshint-json', function () {
-	it('should be used by JSHint', function () {
-		var ret = false;
-		var _log = console.log;
+describe('jshint-json', () => {
+	it('should be used by JSHint', () => {
+		let ret = false;
+		const _log = console.log;
 
-		console.log = function (str) {
+		console.log = str => {
 			if (/{"result"/.test(str)) {
 				ret = true;
 			}

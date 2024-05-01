@@ -4,20 +4,18 @@
 
 Makes it easy to use JSHint with other tools.
 
-
 ## Install
 
-```
+```sh
 npm install --save-dev jshint-json
 ```
-
 
 ## Usage
 
 #### JSHint CLI
 
-```
-$ jshint --reporter node_modules/jshint-json/json.js file.js
+```sh
+jshint --reporter node_modules/jshint-json/json.js file.js
 ```
 
 #### [grunt-contrib-jshint](https://github.com/gruntjs/grunt-contrib-jshint)
@@ -35,7 +33,6 @@ grunt.initConfig({
 grunt.loadNpmTasks('grunt-contrib-jshint');
 grunt.registerTask('default', ['jshint']);
 ```
-
 
 ## Example output
 
@@ -163,8 +160,3 @@ grunt.registerTask('default', ['jshint']);
 	}]
 }
 ```
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)
